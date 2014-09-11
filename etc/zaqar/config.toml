@@ -1,0 +1,9 @@
+[mailgun]
+domain = ""
+apikey = ""
+publicapikey = ""
+
+[logs]
+  [logs.syslog]
+  path = "/var/log/syslog"
+  matchers = [["regexp", "^foo.*"]]
